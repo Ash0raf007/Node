@@ -44,7 +44,6 @@ liveReloadServer.server.once("connection", () => {
 ///npm run watch
 // Auto refresh
 
-///link in .env 
 const mongoUri = process.env.MONGODB_URI;
 
 mongoose.connect(mongoUri, {
